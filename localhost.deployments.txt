@@ -1,0 +1,2 @@
+0x0577ad84f765f2181dcdaea3e1d4f16f697e2da7d2ec80353d76056db0483247:artifacts/abis/ResultRecorder.json:result-recorder
+0x015f4e8bcad0ad8b6f524b52dd24818fd4c4e9dbba5edb8ba70a00817c640059:artifacts/abis/VotingSystem.json:voting-system

@@ -1,0 +1,125 @@
+[
+    {
+        "inputs": [
+            {
+                "name": "result_recorder_address",
+                "type": "felt"
+            }
+        ],
+        "name": "constructor",
+        "outputs": [],
+        "type": "constructor"
+    },
+    {
+        "inputs": [
+            {
+                "name": "poll_id",
+                "type": "felt"
+            },
+            {
+                "name": "public_key",
+                "type": "felt"
+            }
+        ],
+        "name": "init_poll",
+        "outputs": [
+            {
+                "name": "result",
+                "type": "felt"
+            }
+        ],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "poll_id",
+                "type": "felt"
+            },
+            {
+                "name": "voter_public_key",
+                "type": "felt"
+            }
+        ],
+        "name": "register_voter",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "poll_id",
+                "type": "felt"
+            }
+        ],
+        "name": "get_voting_state",
+        "outputs": [
+            {
+                "name": "n_no_votes",
+                "type": "felt"
+            },
+            {
+                "name": "n_yes_votes",
+                "type": "felt"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "poll_id",
+                "type": "felt"
+            },
+            {
+                "name": "voter_public_key",
+                "type": "felt"
+            }
+        ],
+        "name": "get_is_voter_registered",
+        "outputs": [
+            {
+                "name": "result",
+                "type": "felt"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "poll_id",
+                "type": "felt"
+            },
+            {
+                "name": "voter_public_key",
+                "type": "felt"
+            },
+            {
+                "name": "vote",
+                "type": "felt"
+            }
+        ],
+        "name": "vote",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "poll_id",
+                "type": "felt"
+            }
+        ],
+        "name": "finalize_poll",
+        "outputs": [
+            {
+                "name": "result",
+                "type": "felt"
+            }
+        ],
+        "type": "function"
+    }
+]

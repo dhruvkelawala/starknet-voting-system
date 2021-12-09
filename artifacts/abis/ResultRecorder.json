@@ -1,0 +1,34 @@
+[
+    {
+        "inputs": [
+            {
+                "name": "poll_id",
+                "type": "felt"
+            },
+            {
+                "name": "result",
+                "type": "felt"
+            }
+        ],
+        "name": "record",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "poll_id",
+                "type": "felt"
+            }
+        ],
+        "name": "get_poll_result",
+        "outputs": [
+            {
+                "name": "result",
+                "type": "felt"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    }
+]
